@@ -1,0 +1,15 @@
+﻿.cover__overlay{
+  background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(./../../../images/cover-trains.jpg) no-repeat center;
+  min-height: 640px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  position: relative;
+
+
+}
+.cover__overlay:hover{
+  background:linear-gradient(rgba(42,44,47,0.8),rgba(42,44,47,0.8)),url(./../../../images/cover-trains.jpg) no-repeat center;
+}
