@@ -1,28 +1,26 @@
 ﻿@import url(./__logo/header__logo.css);
 @import url(./__lang-link/header__lang-link.css);
 .header{
-  width: calc(100% - 96px);
-  min-height: 42px;
+  max-width: calc(100% - 96px);
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  margin: 28px auto 48px auto;
+  margin: 28px auto 48px;
 }
 @media screen and (min-width: 1280px) {
   .header {
-    margin: 28px auto 56px auto;
+    max-width:calc(100% - 48px * 2)
   }
 }
 
 @media screen and (max-width: 768px) {
   .header {
-      width: calc(100% - 48px);
-      height: 52px;
+      max-width: calc(100% - 48px);
   }
 }
 @media screen and (max-width: 320px) {
   .header {
-      width: calc(100% - 32px);
-      height: 42px;
+      max-width: calc(100% - 32px);
+      margin: 16px auto 40px;
   }
 }

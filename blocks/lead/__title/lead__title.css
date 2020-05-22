@@ -4,19 +4,14 @@
   font-weight: bold;
   text-align: center;
   color: #FFFFFF;
+  max-width: 720px;
 }
 
 
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 320px) {
   .lead__title{
-    font-size: calc(2.5rem + (96 - 40) * ((100vw - 320px) / (768 - 320)));
-    line-height: calc(2.75rem + (100 - 44) * ((100vw - 320px) / (768 - 320)));
-  }
-}
-@media screen and (min-width: 768px) {
-  .lead__title{
-    font-size: 96px;
-    line-height: 100px;
+    font-size: 40px;
+    line-height: 44px;
   }
 }
