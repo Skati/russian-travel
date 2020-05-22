@@ -1,2 +1,20 @@
 ﻿.cover__background{
+  margin:0;
+}
+@media screen and (min-width:1280px){
+  .cover__background{
+    margin: 92px 48px;
+  }
+}
+
+@media screen and (max-width:768px){
+  .cover__background{
+    margin: 88px 0;
+  }
+}
+@media screen and (max-width:320px){
+  .cover__background{
+    margin: 64px 0;
+    margin: 92px 0;
+  }
 }

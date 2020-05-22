@@ -4,21 +4,5 @@
 @import url(./__overlay/cover__overlay.css);
 .cover{
   color: #FFFFFF;
-  margin: 92px 0;
-}
-@media screen and (min-width:1280px){
-  .cover{
-    margin: 92px 48px;
-  }
-}
 
-@media screen and (max-width:768px){
-  .cover{
-    margin: 88px 0;
-  }
-}
-@media screen and (max-width:320px){
-  .cover{
-    margin: 64px 0;
-  }
 }
