@@ -5,10 +5,12 @@
 @import url(./__description/place__description.css);
 
 .place{
+  display: -ms-grid;
   display: grid;
   max-width: calc(100% - 96px);
   margin: auto;
   margin-bottom: 80px;
+  -ms-grid-columns: minmax(320px,440px) 32px minmax(288px, 456px);
   grid-template-columns: minmax(320px,440px) minmax(288px, 456px);
   grid-column-gap: 32px;
   grid-row-gap: 48px;
@@ -17,6 +19,7 @@
 @media screen and (min-width: 1280px) {
   .place{
     max-width: calc(100% - 2*148px);
+    -ms-grid-columns: 460px 40px 1fr;
     grid-template-columns: 460px 1fr;
     grid-column-gap: 40px;
   }
@@ -25,6 +28,7 @@
 @media screen and (max-width: 768px) {
   .place{
     max-width: calc(100% - 48px);
+    -ms-grid-columns:340px 28px 1fr;
     grid-template-columns:340px 1fr;
     grid-column-gap: 28px;
   }
@@ -33,10 +37,9 @@
 @media screen and (max-width: 320px) {
   .place{
     max-width: 100%;
+    -ms-grid-columns: minmax(320px, 1fr);
     grid-template-columns: minmax(320px, 1fr);
     grid-column-gap: 32px;
     margin-bottom: 48px;
-
-
   }
 }
