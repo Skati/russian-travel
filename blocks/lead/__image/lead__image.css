@@ -1,5 +1,5 @@
 ﻿.lead__image{
-  width: 100%;
-  background-size: cover;
-  background-position: center;
+  max-width: 100%;
+  box-sizing: border-box;
 }
+
