@@ -3,3 +3,8 @@
 @import url(./../photo-grid/photo-grid.css);
 @import url(./../places/places.css);
 @import url(./../cover/cover.css);
+.content{
+  margin: 0 auto;
+  min-width: 320px;
+  max-width: 1280px;
+}
