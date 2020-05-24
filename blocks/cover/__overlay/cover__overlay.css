@@ -3,7 +3,8 @@
   background-size: cover;
   position: relative;
   min-height: 200px;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

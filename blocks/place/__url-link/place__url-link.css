@@ -3,7 +3,8 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
-  text-decoration-line: underline;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
   cursor: pointer;
 }
 .place__url-link:hover{

@@ -3,7 +3,6 @@
 @import url(./__image/lead__image.css);
 @import url(./__caption/lead__caption.css);
 .lead{
-
   color: #FFFFFF;
   max-width: calc(100% - 200px);
   margin: 0 auto 92px;
