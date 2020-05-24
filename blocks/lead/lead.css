@@ -3,17 +3,15 @@
 @import url(./__image/lead__image.css);
 @import url(./__caption/lead__caption.css);
 .lead{
-  margin: 0 auto;
+
   color: #FFFFFF;
   max-width: calc(100% - 200px);
-  margin-bottom: 114px;
-
+  margin: 0 auto 92px;
 }
 
 @media screen and (max-width:1024px){
   .lead{
     max-width: 100%;
-    margin-bottom: 92px;
   }
 }
 @media screen and (max-width:768px){
@@ -25,8 +23,8 @@
 }
 @media screen and (max-width:320px){
   .lead{
-    max-width: 100%;
-    margin: 0 auto;
+    max-width: calc(100% + 32px);
+    margin: 0 -16px;
     margin-bottom: 64px;
   }
 }

@@ -19,7 +19,8 @@
 }
 @media screen and (max-width:320px){
   .cover__background{
-    margin: 64px 0;
+    margin: 0 -16px 64px;
+
   }
 }
 

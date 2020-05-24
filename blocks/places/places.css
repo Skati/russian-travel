@@ -1,5 +1,15 @@
 ﻿@import url(./../place/place.css);
 .places{
   color: #FFFFFF;
-  margin: 0 auto 88px;
+  margin: 0 auto 92px;
+}
+@media screen and (max-width: 768px) {
+  .places{
+    margin-bottom: 88px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .places{
+    margin-bottom: 64px;
+  }
 }
