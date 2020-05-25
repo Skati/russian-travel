@@ -1,7 +1,9 @@
-﻿.cover__overlay{
+﻿
+.cover__overlay{
   background:url(./../../../images/cover-trains.jpg) no-repeat center;
   background-size: cover;
   position: relative;
+  width: 100%;
   min-height: 740px;
   -o-object-fit: contain;
      object-fit: contain;
@@ -40,7 +42,6 @@
 .cover__overlay::before {
   content: "";
   position: absolute;
-
   background: #2A2C2F;
   top: 0;
   left: 0;
