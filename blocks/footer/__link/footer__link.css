@@ -4,23 +4,13 @@
   font-weight:400;
   font-size: 16px;
   line-height: 18px;
-}
-@media screen and (min-width:768px){
-  .footer__link + .footer__link{
-    margin-left: 18px;
-  }
-  /* .footer__link:last-of-type{
-    margin: 0;
-  } */
-}
-@media screen and (max-width:320px){
 
+}
+
+@media screen and (max-width:320px){
   .footer__link{
     font-size: 24px;
     line-height: 24px;
-  }
-  .footer__link + .footer__link{
-    margin-top: 32px;
   }
 }
 .footer__link:hover{
