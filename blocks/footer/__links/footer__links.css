@@ -9,18 +9,17 @@
   padding: 0;
   margin: 0;
 }
-@media (min-width:321px) and (max-width:620px){
+/* @media (min-width:321px) and (max-width:620px){
   .footer__links{
     flex-wrap: wrap;
   }
-}
-@media screen and (max-width:320px){
+} */
+@media screen and (max-width:620px){
   .footer__links{
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-bottom: 48px;
   }
 }
 

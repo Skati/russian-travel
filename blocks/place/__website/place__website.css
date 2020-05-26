@@ -3,7 +3,7 @@
 .place__website{
   align-self:end;
 }
-@media (max-width: 320px) {
+@media (max-width: 600px) {
   .place__website {
     display: none;
   }

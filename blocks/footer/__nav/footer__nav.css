@@ -6,14 +6,13 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-@media screen and (max-width:320px){
+
+@media screen and (max-width:620px){
   .footer__nav{
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
     margin-bottom: 48px;
-
-
   }
 }
