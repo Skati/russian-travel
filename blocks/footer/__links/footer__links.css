@@ -9,11 +9,7 @@
   padding: 0;
   margin: 0;
 }
-/* @media (min-width:321px) and (max-width:620px){
-  .footer__links{
-    flex-wrap: wrap;
-  }
-} */
+
 @media screen and (max-width:620px){
   .footer__links{
     -webkit-box-orient: vertical;
