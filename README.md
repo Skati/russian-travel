@@ -24,7 +24,7 @@ git clone https://github.com/Skati/russian-travel.git
 ```
 
 ## Использование
-run index.html in project folder
+[Ссылка на сайт](https://skati.github.io/russian-travel/)
 
 ## Что нового
 

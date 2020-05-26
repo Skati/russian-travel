@@ -4,7 +4,7 @@
   background-size: cover;
   position: relative;
   width: 100%;
-
+  min-height: 740px;
   -o-object-fit: contain;
      object-fit: contain;
   display: -webkit-box;
@@ -24,7 +24,21 @@
   text-decoration: none;
   z-index: 1;
 }
-
+@media screen and (max-width:1024px){
+  .cover__overlay{
+    min-height: 640px;
+  }
+}
+@media screen and (max-width:768px){
+  .cover__overlay{
+    min-height: 480px;
+  }
+}
+@media screen and (max-width:320px){
+  .cover__overlay{
+    min-height: 200px;
+  }
+}
 .cover__overlay::before {
   content: "";
   position: absolute;
