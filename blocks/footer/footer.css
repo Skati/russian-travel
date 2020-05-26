@@ -17,11 +17,6 @@
           box-sizing: border-box;
 
 }
-@media (min-width:321px) and (max-width:620px){
-  .footer{
-    flex-wrap: wrap;
-  }
-}
 @media screen and (max-width:620px){
   .footer{
     -webkit-box-orient: vertical;
